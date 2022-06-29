@@ -70,6 +70,7 @@ bottom b {
 }
 
 bottom y {
+  font-family: var(--font1);
   position: absolute;
   right:30px;
 }
@@ -151,6 +152,19 @@ z-index: 1;
 .boxes img {
   width:100%;
   margin-bottom: 50px;
+}
+
+.boxes h1 {
+  width: 100%;
+  height:100px;
+  background: rgba( var(--mclt),1);
+  font-family: var(--font1);
+  font-size:40px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
 }
 
 .box { width: 40%;
