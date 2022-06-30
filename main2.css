@@ -47,11 +47,11 @@ top .image img {
 
 top x { 
   height:50%;
-  position: relative; float:right;
+  position: relative;
   left:100px;
   margin-top: 53px;
   font-family: var(--font1);
-  font-size:22px;
+  font-size:1wh;
   text-transform: uppercase;
 }
 
@@ -234,12 +234,10 @@ z-index: 1;
   }
   
   top x { 
-    height:50%;
     position: relative;
-    left:40.5%;
+    left:30px;
     margin-top: 63px;
     font-family: var(--font1);
-    font-size:22px;
     text-transform: uppercase;
   }
 
