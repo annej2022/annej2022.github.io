@@ -10,3 +10,5 @@ else {
         document.getElementById("TextString").innerHTML = "";
     }
 }
+
+
