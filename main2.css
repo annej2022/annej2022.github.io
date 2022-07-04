@@ -43,7 +43,6 @@ top {
 	margin: 0;
 	background: #fff;
 	height: 130px;
-	border-bottom: 3px solid #000;
 }
 
 top .image {
@@ -79,13 +78,14 @@ nav {
 	background: #fff;
 	height: 60px;
 	position: sticky;
-	top: -1px;
+	top: 0px;
 	justify-content: center;
 	align-items: center;
 	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 	text-align: center;
 	z-index: 9;
 	border-bottom: 3px solid #000;
+	border-top: 3px solid #000;
 }
 
 nav a {
@@ -183,6 +183,7 @@ bottom y {
 
 .boxes img {
 	width: 100%;
+	border: 3px solid #000;
 }
 
 .boxes h1 {
@@ -229,12 +230,17 @@ bottom y {
 	font-size: 18px;
 	border: 3px solid #000;
 	overflow-x: hidden;
+	max-height:920px;
 }
 
 .box img {
 	width: 100%;
 	object-fit: cover;
 	border: 3px solid #000;
+}
+
+.box a {
+	font-family: var(--font2)
 }
 
 .box h1 {
@@ -440,9 +446,10 @@ small screens
 large screens
 *************/
 @media all and (max-width: 1400px) {
+
 	nav {
-		width: 100% !important;
-		height: 70px !important;
+		width: 100%!important;
+		height: 70px!important;
 		flex-flow: column wrap;
 	}
 
