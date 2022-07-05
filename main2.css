@@ -136,7 +136,6 @@ bottom a {
 	text-decoration: none;
 	color: #000;
 	font-weight: 700;
-   position: relative;
    margin-right:-15px;
 }
 
@@ -319,7 +318,7 @@ bottom y {
 /************
 cell screens
 *************/
-@media all and (max-width: 900px) {
+@media all and (max-width: 600px) {
 
 	nav {
 		width: 100% !important;
@@ -336,6 +335,13 @@ cell screens
 		text-decoration: none;
 		margin-left: 10px;
 		margin-right: 10px;
+	}
+
+	
+	bottom a {
+		width: 100% !important;
+		height: 70px !important;
+		flex-flow: column wrap;
 	}
 
 
@@ -410,7 +416,7 @@ cell screens
 		Margin-bottom: 15px;
 	}
 
-	bottom {font-size: 11px;}
+	bottom {font-size: 18px;}
 	bottom x {
 		font-size: 12px;
 	}
