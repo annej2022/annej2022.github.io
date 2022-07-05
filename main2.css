@@ -115,6 +115,7 @@ bottom {
 	height: 130px;
 	border-top: 3px solid #000;
 	font-family: var(--font1);
+	font-size: 14px;
 }
 
 bottom x {
@@ -416,13 +417,14 @@ cell screens
 		Margin-bottom: 15px;
 	}
 
-	bottom {font-size: 18px;}
+	bottom {font-size: 12px;}
+
 	bottom x {
 		font-size: 12px;
 	}
 
 	bottom b {
-		font-size: 13px;
+		font-size: 12px;
 	}
 
 	bottom y {
