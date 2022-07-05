@@ -1,0 +1,38 @@
+form {
+    border: 3px solid #000;
+    font-family: var(--font1);
+    margin-top:50px;
+    margin-bottom:50px;
+    width: 80%;
+    margin-left:10%;
+  }
+  
+  .container {
+    padding: 20px;
+    background-color: #fff;
+  }
+  
+  input[type=text], input[type=submit] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid #000;
+    box-sizing: border-box;
+  }
+  
+  input[type=checkbox] {
+    margin-top: 16px;
+  }
+  
+  input[type=submit] {
+    background-color:  rgba(var(--mcly), 1);
+    color: 000;
+    border: none;
+    font-family: var(--font1);
+    text-transform: uppercase;
+  }
+  
+  input[type=submit]:hover {
+    opacity: 0.8;
+  }

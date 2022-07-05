@@ -11,4 +11,6 @@ else {
     }
 }
 
-
+function myFunction() {
+    alert("Thanks for adding yourself to my mailing list. Keep your eyes on your inbox for exciting updates coming soon.");
+  }
