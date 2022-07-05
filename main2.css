@@ -247,21 +247,13 @@ bottom y {
 	font-size: 18px;
 	border: 3px solid #000;
 	overflow-x: hidden;
-	max-height:920px;
+	max-height:925px;
 }
 
 .box img {
 	width: 100%;
 	object-fit: cover;
 	border: 3px solid #000;
-	transition: all .2s ease-in-out;
-	-webkit-animation: shine .75s;
-	animation: shine .75s;
-}
-
-.box img:hover {
-	transform: scale(1.55);
-	
 }
 
 .box a {
