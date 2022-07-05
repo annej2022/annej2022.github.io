@@ -14,3 +14,8 @@ else {
 function myFunction() {
     alert("Thanks for adding yourself to my mailing list. Keep your eyes on your inbox for exciting updates coming soon.");
   }
+
+
+  function sendEmail() 
+{
+    window.location = "mailto:belowaveragesimmer@mail.com";}
